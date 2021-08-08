@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.bb8684dc.chunk.css",
+    "main.js": "/Portfolio/static/js/main.92650365.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.92650365.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
+    "static/css/2.b7d8c0c2.chunk.css": "/Portfolio/static/css/2.b7d8c0c2.chunk.css",
+    "static/js/2.051f3942.chunk.js": "/Portfolio/static/js/2.051f3942.chunk.js",
+    "static/js/2.051f3942.chunk.js.map": "/Portfolio/static/js/2.051f3942.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/2.b7d8c0c2.chunk.css.map": "/Portfolio/static/css/2.b7d8c0c2.chunk.css.map",
+    "static/css/main.bb8684dc.chunk.css.map": "/Portfolio/static/css/main.bb8684dc.chunk.css.map",
+    "static/js/2.051f3942.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.051f3942.chunk.js.LICENSE.txt",
+    "static/media/Heman.1e591866.jpg": "/Portfolio/static/media/Heman.1e591866.jpg",
+    "static/media/Heman_Logo_2.f056b218.jpg": "/Portfolio/static/media/Heman_Logo_2.f056b218.jpg",
+    "static/media/Heydar Molaei Forouhar (De).4ac38dcc.pdf": "/Portfolio/static/media/Heydar Molaei Forouhar (De).4ac38dcc.pdf",
+    "static/media/Heydar Molaei Forouhar (En) .ecb0d281.pdf": "/Portfolio/static/media/Heydar Molaei Forouhar (En) .ecb0d281.pdf",
+    "static/media/App.css": "/Portfolio/static/media/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77701863050.19c8ed73.jpg",
+    "static/media/ecommerce.390bd18f.jpg": "/Portfolio/static/media/ecommerce.390bd18f.jpg",
+    "static/media/pokemon-game.3c114265.jpg": "/Portfolio/static/media/pokemon-game.3c114265.jpg",
+    "static/media/portfolioView.ae77e2d0.png": "/Portfolio/static/media/portfolioView.ae77e2d0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb6781d5.js",
+    "static/css/2.b7d8c0c2.chunk.css",
+    "static/js/2.051f3942.chunk.js",
+    "static/css/main.bb8684dc.chunk.css",
+    "static/js/main.92650365.chunk.js"
+  ]
+}
