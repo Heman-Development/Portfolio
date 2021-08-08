@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255,255,255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+  }
+
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/********NavBar******/
+
+nav {
+  z-index: 2;
+}
+
+.navbar-nav{
+  margin-left: auto;
+  
+}
+
+.logo {
+  width: 4rem;
+  margin-top: 0.3rem;
+  border-radius: 50%;
+}
+
+nav a.nav-link {
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin:0.5rem;
+  color: var(--primary-white) !important ;
+  border-bottom: 0.1875rem solid #212529;
+}
+
+
+.navbar-nav > li > a:hover {
+  border-bottom: 0.1875rem solid var(--primary-orange);
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 5rem;
+}
+
+
+@media(max-width: 768px){
+ .navbar-brand {
+   width: 7rem;
+ }
+}
+
+
+
+
+
+/************* Home ************/
+
+.home-wrapper {
+  position: relative;
+  background: url(./images/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77701863050.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.main-info {
+  text-align: center;
+  
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+
+
+/* =============== Typed Text ===============*/ 
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+@media(max-width: 768px){
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+}
+
+.btn-main-offer {
+  border: 1px solid var(--primary-red) ;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem  0.75rem  0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+} 
+
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+  .particles {
+    display: none;
+  }
+}
+
+
+
+/* =============== Other Pages Bg ===============*/ 
+
+.wrapper {
+  background: url(./images/background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  overflow-y: auto;
+}
