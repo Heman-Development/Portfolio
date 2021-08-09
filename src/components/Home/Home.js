@@ -18,7 +18,7 @@ const Home = () => {
         <h1>Full Stack Web-Developer</h1>
         <Typed
           className="typed-text"
-          strings={["HELLO !", "Wellcome to my Portfolio"]}
+          strings={["HELLO !", "Welcome to my Portfolio"]}
           typeSpeed={40}
           backSpeed={20}
           loop
