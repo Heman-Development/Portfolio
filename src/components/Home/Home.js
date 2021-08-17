@@ -8,6 +8,7 @@ import CVde from './Heydar Molaei Forouhar (De).pdf'
 
 
 
+
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 1000, disable: "mobile", once: "true" });
