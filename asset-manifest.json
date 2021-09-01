@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.5ab3c4ec.chunk.css",
-    "main.js": "/Portfolio/static/js/main.5ee00e8c.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.5ee00e8c.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.33257915.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.33257915.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
     "static/css/2.b7d8c0c2.chunk.css": "/Portfolio/static/css/2.b7d8c0c2.chunk.css",
@@ -18,6 +18,7 @@
     "static/media/Heydar Molaei Forouhar (En) .b1c6b3d0.pdf": "/Portfolio/static/media/Heydar Molaei Forouhar (En) .b1c6b3d0.pdf",
     "static/media/App.css": "/Portfolio/static/media/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77701863050.19c8ed73.jpg",
     "static/media/ecommerce.390bd18f.jpg": "/Portfolio/static/media/ecommerce.390bd18f.jpg",
+    "static/media/hd-imageboard.f9933521.png": "/Portfolio/static/media/hd-imageboard.f9933521.png",
     "static/media/me.ff602001.png": "/Portfolio/static/media/me.ff602001.png",
     "static/media/pokemon-game.3c114265.jpg": "/Portfolio/static/media/pokemon-game.3c114265.jpg",
     "static/media/portfolioView.ae77e2d0.png": "/Portfolio/static/media/portfolioView.ae77e2d0.png"
@@ -27,6 +28,6 @@
     "static/css/2.b7d8c0c2.chunk.css",
     "static/js/2.051f3942.chunk.js",
     "static/css/main.5ab3c4ec.chunk.css",
-    "static/js/main.5ee00e8c.chunk.js"
+    "static/js/main.33257915.chunk.js"
   ]
 }
