@@ -2,9 +2,10 @@ import { React, useEffect } from 'react'
 import './Projects.css'
 import Aos from "aos";
 import "aos/dist/aos.css";
-import ecommerce from '../../images/ecommerce.jpg'
-import pokemon from '../../images/pokemon-game.jpg'
-import portfolio from '../../images/portfolioView.png'
+import ecommerce from '../../images/ecommerce.jpg';
+import pokemon from '../../images/pokemon-game.jpg';
+import portfolio from '../../images/portfolioView.png';
+import hdimageboard from '../../images/hd-imageboard.png';
 
 const Projects = () => {
   useEffect(() => {
@@ -49,6 +50,20 @@ const Projects = () => {
             <div className="btn">
               <a href="https://heman-development.github.io/Pokemon-Game/" class="btn btn-primary" target="_blank" rel="noreferrer">DEMO</a>
               <a href="https://github.com/Heman-Development/Pokemon-Game" class="btn btn-primary" target="_blank" rel="noreferrer">CODE</a>
+            </div>
+
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-delay="500" class="card">
+          <img src={hdimageboard} class="card-img-top" alt="hdimageboard" />
+          <div class="card-body">
+            <h5 class="card-title">HD Image Board</h5>
+            <span>SASS | REACT | JS | REDUX | EXPRESS JS | NODE </span>
+            <p class="card-text">Singel full-stack project (client & server) where you can sing up, create, edit, like and delete individual image cards.</p>
+
+            <div className="btn">
+              <a href="https://hd-imageboard.netlify.app" class="btn btn-primary" target="_blank" rel="noreferrer">DEMO</a>
+              <a href="https://github.com/Heman-Development/HD-Image_Board" class="btn btn-primary" target="_blank" rel="noreferrer">CODE</a>
             </div>
 
           </div>
