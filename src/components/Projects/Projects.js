@@ -59,7 +59,7 @@ const Projects = () => {
           <div class="card-body">
             <h5 class="card-title">HD Image Board</h5>
             <span>SASS | REACT | JS | REDUX | EXPRESS JS | NODE </span>
-            <p class="card-text">Singel full-stack project (client & server) where you can sing up, create, edit, like and delete individual image cards.</p>
+            <p class="card-text">Single full-stack project (client & server) where you can sign up, create, edit, like and delete individual image cards.</p>
 
             <div className="btn">
               <a href="https://hd-imageboard.netlify.app" class="btn btn-primary" target="_blank" rel="noreferrer">DEMO</a>
