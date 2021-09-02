@@ -5,6 +5,8 @@ import "aos/dist/aos.css";
 import './Home.css'
 import CVen from './Heydar Molaei Forouhar (En) .pdf'
 import CVde from './Heydar Molaei Forouhar (De).pdf'
+import Photo from '../../images/Heman.jpg'
+
 
 
 
@@ -17,6 +19,7 @@ const Home = () => {
     <div data-aos="fade" className="home-wrapper">
       <div className="main-info">
         <h1>Full Stack Web-Developer</h1>
+        <div className="image"><img src={Photo} alt="hemanphoto"/></div>
         <Typed
           className="typed-text"
           strings={["HELLO, my name is Heydar!", "I am a Full-Stack Web Developer", "Welcome to my Portfolio",]}
@@ -25,6 +28,7 @@ const Home = () => {
           loop
         />
         <div className="cvBtn">
+        
           <a class="btn " href={CVen} role="button" target="_blank" rel="noreferrer">Download CV in English</a>
           <a class="btn " href={CVde} role="button" target="_blank" rel="noreferrer" >Download CV in German</a>
         </div>
