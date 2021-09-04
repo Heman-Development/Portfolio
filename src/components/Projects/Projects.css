@@ -1,4 +1,8 @@
-.card {
+.card-group {
+display: flex;
+}
+
+.card {  
   margin: 2rem;
   max-height: 32rem;
 }
@@ -16,5 +20,6 @@
 }
 
 .btn {
+  display: flex;
   margin: 0 .8rem;
 }

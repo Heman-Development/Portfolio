@@ -6,6 +6,7 @@ import ecommerce from '../../images/ecommerce.jpg';
 import pokemon from '../../images/pokemon-game.jpg';
 import portfolio from '../../images/portfolioView.png';
 import hdimageboard from '../../images/hd-imageboard.png';
+import noteWall from '../../images/NoteWall.png';
 
 const Projects = () => {
   useEffect(() => {
@@ -15,6 +16,19 @@ const Projects = () => {
     <div className="wrapper">
 
       <div class="card-group">
+      <div data-aos="fade-up" data-aos-delay="100" class="card">
+          <img src={noteWall} class="card-img-top" alt="e-commerce" />
+          <div class="card-body">
+            <h5 class="card-title">Note Wall</h5>
+            <span>HTML | CSS | Vanilla JavaScript </span>
+            <p class="card-text">Sticky notes browser application with ability to store the notes created in the Local Storage. Built with HTML, CSS, Vanilla JavaScript..</p>
+            <div className="btn">
+              <a href="https://heman-development.github.io/NoteWall/" class="btn btn-primary" target="_blank" rel="noreferrer">DEMO</a>
+              <a href="https://github.com/Heman-Development/NoteWall" class="btn btn-primary" target="_blank" rel="noreferrer">CODE</a>
+            </div>
+          </div>
+        </div>
+
         <div data-aos="fade-up" data-aos-delay="100" class="card">
           <img src={ecommerce} class="card-img-top" alt="e-commerce" />
           <div class="card-body">
@@ -65,7 +79,7 @@ const Projects = () => {
               <a href="https://hd-imageboard.netlify.app" class="btn btn-primary" target="_blank" rel="noreferrer">DEMO</a>
               <a href="https://github.com/Heman-Development/HD-Image_Board" class="btn btn-primary" target="_blank" rel="noreferrer">CODE</a>
             </div>
-
+            
           </div>
         </div>
       </div>
