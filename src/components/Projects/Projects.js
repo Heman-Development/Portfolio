@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <div className="wrapper">
 
-      <div class="card-group">
+      <div class="card-group-main">
       <div data-aos="fade-up" data-aos-delay="100" class="card">
           <img src={noteWall} class="card-img-top" alt="e-commerce" />
           <div class="card-body">
@@ -41,7 +41,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-delay="300" class="card">
+        <div data-aos-delay="300" class="card">
           <img src={portfolio} class="card-img-top" alt="portfolio" />
           <div class="card-body">
             <h5 class="card-title">Portfolio</h5>
@@ -54,7 +54,7 @@ const Projects = () => {
 
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-delay="500" class="card">
+        <div  data-aos-delay="500" class="card">
           <img src={pokemon} class="card-img-top" alt="pokemon" />
           <div class="card-body">
             <h5 class="card-title">Pokemon Game</h5>
@@ -68,7 +68,7 @@ const Projects = () => {
 
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-delay="500" class="card">
+        <div  data-aos-delay="500" class="card">
           <img src={hdimageboard} class="card-img-top" alt="hdimageboard" />
           <div class="card-body">
             <h5 class="card-title">HD Image Board</h5>

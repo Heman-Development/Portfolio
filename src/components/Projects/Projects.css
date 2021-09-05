@@ -1,15 +1,29 @@
-.card-group {
-display: flex;
+
+.card-group-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80rem;
+  margin-bottom: 2rem;
 }
 
 .card {  
-  margin: 2rem;
+  max-width: 500px;
+  margin: 10rem 0 0 0;
   max-height: 32rem;
+  flex: 0 0 50%;
 }
 
 @media (max-width: 575px) {
-  .card-group {
-    margin-top: 45rem;
+  .card-group-main {
+    margin-top: 140rem;
+    margin-bottom: 2rem;
+  }
+  .card {  
+    max-width: 350px;
+    margin: 10rem 0 0 0;
+    max-height: 32rem;
+    flex: 0 0 100%;
   }
 }
 
@@ -21,5 +35,6 @@ display: flex;
 
 .btn {
   display: flex;
+  justify-content: center;
   margin: 0 .8rem;
 }
