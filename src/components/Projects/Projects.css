@@ -9,7 +9,7 @@
 
 .card {  
   max-width: 500px;
-  margin: 10rem 0 0 0;
+  margin: 10rem 2rem 0 0;
   max-height: 32rem;
   flex: 0 0 50%;
 }
