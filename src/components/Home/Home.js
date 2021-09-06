@@ -1,5 +1,6 @@
 import { React, useEffect } from 'react'
 import Typed from "react-typed";
+import Particles from 'react-particles-js';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import './Home.css'
@@ -16,6 +17,27 @@ const Home = () => {
     Aos.init({ duration: 1000, disable: "mobile", once: "true" });
   }, [])
   return (
+    <>
+   <Particles
+        params={{ 
+          particles: {
+            number: {
+              value: 30,
+              density: {
+                enable: true,
+                value_area: 550
+              }
+            },
+            shape: {
+              type: 'circle',
+              stroke: {
+                width: 6,
+                color: '#f9ab00'
+              }
+            }
+          }
+        }}
+        />
     <div data-aos="fade" className="home-wrapper">
       <div className="main-info">
         <h1>Full Stack Web-Developer</h1>
@@ -35,6 +57,7 @@ const Home = () => {
 
       </div>
     </div>
+   </>
   )
 }
 
