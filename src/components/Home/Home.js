@@ -18,7 +18,7 @@ const Home = () => {
   }, [])
   return (
     <>
-   <Particles
+   {/* <Particles
         params={{ 
           particles: {
             number: {
@@ -37,7 +37,7 @@ const Home = () => {
             }
           }
         }}
-        />
+        /> */}
     <div data-aos="fade" className="home-wrapper">
       <div className="main-info">
         <h1>Full Stack Web-Developer</h1>
