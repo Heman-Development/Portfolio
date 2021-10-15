@@ -3,11 +3,11 @@ import Typed from "react-typed";
 import Particles from 'react-particles-js';
 import Aos from "aos";
 import "aos/dist/aos.css";
-import './Home.css'
-import CVen from './Heydar Molaei Forouhar (En) .pdf'
-import CVde from './Heydar Molaei Forouhar (De).pdf'
-import Photo from '../../images/Heman.jpg'
-
+import './Home.css';
+import CVen from './Heydar Molaei Forouhar (En) .pdf';
+import CVde from './Heydar Molaei Forouhar (De).pdf';
+import Photo from '../../images/Heman.jpg';
+import BG from '../../images/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77701863050.jpg';
 
 
 
@@ -18,7 +18,8 @@ const Home = () => {
   }, [])
   return (
     <>
-   {/* <Particles
+    <img className="backgroundImage" src={BG} alt="backgroundImage" />
+   <Particles
         params={{ 
           particles: {
             number: {
@@ -37,7 +38,7 @@ const Home = () => {
             }
           }
         }}
-        /> */}
+        />
     <div data-aos="fade" className="home-wrapper">
       <div className="main-info">
         <h1>Full Stack Web-Developer</h1>

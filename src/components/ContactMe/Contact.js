@@ -29,18 +29,7 @@ const Contact = () => {
           <input class="btn btn-primary" type="submit" value="Submit" />
         </form>
       </div>
-      {/* <form data-aos="fade" className="form-box" action="https://formsubmit.co/awartanian@hotmail.com" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" name="name" required />
-        <label for="email">Email:</label>
-        <input type="email" name="email" required />
-        <label for="message">Message:</label>
-        <textarea name="message" rows="6" cols="50" required></textarea>
-        <input type="hidden" name="_next" value="http://localhost:3000/src/Pages/Contact/Contact.js"></input>
-        <div style={{ "text-align": "center" }}>
-          <input className="submit-button" type="submit" value="Submit" />
-        </div>
-      </form> */}
+    
 
     </div>
 

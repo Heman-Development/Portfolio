@@ -113,8 +113,9 @@ nav ul li {
 /************* Home ************/
 
 .home-wrapper {
+
   position: relative;
-  background: url(./images/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77701863050.jpg) no-repeat;
+  /* background: url(./images/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77701863050.jpg) no-repeat; */
   background-size: cover;
   background-position: center;
   height: 82vh;
@@ -123,6 +124,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
 }
+
 
 
 
@@ -199,6 +201,7 @@ nav ul li {
   display: flex;
   align-items: center;
   overflow-y: auto;
+  z-index: -1;
 }
 
 .footer {
