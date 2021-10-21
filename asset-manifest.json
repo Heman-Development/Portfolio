@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.c2135d4c.chunk.css",
-    "main.js": "/Portfolio/static/js/main.1dc34937.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.1dc34937.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.8d697fc6.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.8d697fc6.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
     "static/css/2.b7d8c0c2.chunk.css": "/Portfolio/static/css/2.b7d8c0c2.chunk.css",
@@ -14,7 +14,7 @@
     "static/js/2.1085d67a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.1085d67a.chunk.js.LICENSE.txt",
     "static/media/Heman.1e591866.jpg": "/Portfolio/static/media/Heman.1e591866.jpg",
     "static/media/Heman_Logo_2.f056b218.jpg": "/Portfolio/static/media/Heman_Logo_2.f056b218.jpg",
-    "static/media/Heydar Molaei Forouhar (De).2c01239a.pdf": "/Portfolio/static/media/Heydar Molaei Forouhar (De).2c01239a.pdf",
+    "static/media/Heydar Molaei Forouhar (De).b81d0081.pdf": "/Portfolio/static/media/Heydar Molaei Forouhar (De).b81d0081.pdf",
     "static/media/Heydar Molaei Forouhar (En) .c923b1b1.pdf": "/Portfolio/static/media/Heydar Molaei Forouhar (En) .c923b1b1.pdf",
     "static/media/NoteWall.f7558906.png": "/Portfolio/static/media/NoteWall.f7558906.png",
     "static/media/App.css": "/Portfolio/static/media/background.fa6dca5a.jpg",
@@ -30,6 +30,6 @@
     "static/css/2.b7d8c0c2.chunk.css",
     "static/js/2.1085d67a.chunk.js",
     "static/css/main.c2135d4c.chunk.css",
-    "static/js/main.1dc34937.chunk.js"
+    "static/js/main.8d697fc6.chunk.js"
   ]
 }
