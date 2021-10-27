@@ -9,15 +9,17 @@ import hdimageboard from '../../images/hd-imageboard.jpg';
 import freebie from '../../images/Freebie.jpg';
 
 
+
 const Projects = () => {
   useEffect(() => {
     Aos.init({ duration: 2000, disable: "mobile", once: "true" });
+    setTimeout(function() { Aos.refresh(); }, 50);
   }, [])
+
   return (
     <div className="wrapper">
-
       <div class="card-group-main">
-      <div data-aos="fade-down" data-aos-delay="100" class="card">
+      <div data-aos="fade-down"  data-aos-delay="100" class="card">
           <img src={freebie} class="card-img-top" alt="freebie" />
           <div class="card-body">
             <h5 class="card-title">Freebie - (Full Stack)</h5>
@@ -29,7 +31,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-           <div data-aos="fade-down" data-aos-delay="100" class="card">
+           <div data-aos="fade-up" data-aos-delay="500" class="card">
           <img src={ecommerce} class="card-img-top" alt="e-commerce" />
           <div class="card-body">
             <h5 class="card-title">E-commerce shop</h5>
