@@ -13,9 +13,9 @@ const Footer = () => {
         <i class="fab fa-github"></i>
       </a>
 
-      <a href="#">
+      {/* <a href="#">
         <i class="fab fa-xing"></i>
-      </a>
+      </a> */}
     </footer>
 
   );

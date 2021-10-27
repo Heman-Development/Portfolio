@@ -3,14 +3,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 80rem;
+  margin-top: 85rem;
   margin-bottom: 2rem;
 }
 
 .card {  
   max-width: 500px;
   margin: 10rem 2rem 0 0;
-  max-height: 32rem;
+  max-height: 36rem;
   flex: 0 0 50%;
 }
 
@@ -36,5 +36,5 @@
 .btn {
   display: flex;
   justify-content: center;
-  margin: 0 .8rem;
+  margin: 0 1rem;
 }
