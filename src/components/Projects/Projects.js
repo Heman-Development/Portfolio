@@ -13,8 +13,8 @@ import freebie from '../../images/Freebie.jpg';
 const Projects = () => {
   useEffect(() => {
     Aos.init({ duration: 2000, disable: "mobile", once: "true" });
-    setTimeout(function() { Aos.refresh(); }, 150);
-  }, [])
+    setTimeout(function() { Aos.refresh(); }, 250);
+    }, [])
 
   return (
     <div className="wrapper">
