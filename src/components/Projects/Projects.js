@@ -13,7 +13,7 @@ import freebie from '../../images/Freebie.jpg';
 const Projects = () => {
   useEffect(() => {
     Aos.init({ duration: 2000, disable: "mobile", once: "true" });
-    setTimeout(function() { Aos.refresh(); }, 50);
+    setTimeout(function() { Aos.refresh(); }, 150);
   }, [])
 
   return (
@@ -34,7 +34,7 @@ const Projects = () => {
            <div data-aos="fade-up" data-aos-delay="500" class="card">
           <img src={ecommerce} class="card-img-top" alt="e-commerce" />
           <div class="card-body">
-            <h5 class="card-title">E-commerce shop</h5>
+            <h5 class="card-title">E-commerce shop - (without auth)</h5>
             <span>SASS | REACT JS | REDUX | API | NPM</span>
             <p class="card-text">Group project of 3 - a fashion and tech store with a variety of pages, where you can add/remove items from the shopping cart.</p>
             <div className="btn">
