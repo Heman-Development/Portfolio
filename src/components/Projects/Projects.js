@@ -56,7 +56,7 @@ const Projects = () => {
 
           </div>
         </div>
-        <div  data-aos-delay="500" class="card">
+        {/* <div  data-aos-delay="500" class="card">
           <img src={pokemon} class="card-img-top" alt="pokemon" />
           <div class="card-body">
             <h5 class="card-title">Pokemon Game</h5>
@@ -69,7 +69,7 @@ const Projects = () => {
             </div>
 
           </div>
-        </div>
+        </div> */}
         <div  data-aos-delay="500" class="card">
           <img src={hdimageboard} class="card-img-top" alt="hdimageboard" />
           <div class="card-body">
