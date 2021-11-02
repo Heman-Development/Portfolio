@@ -14,9 +14,26 @@
   flex: 0 0 50%;
 }
 
+
+@media (min-width: 576px)  and  (max-width: 1060px) {
+  .card-group-main {
+    margin-top: 130rem;
+    margin-bottom: 2rem;
+  }
+  .card {  
+    max-width: 530px;
+    margin: 10rem 0 0 0;
+    max-height: 36rem;
+    flex: 0 0 100%;
+  }
+}
+
+
+
+
 @media (max-width: 575px) {
   .card-group-main {
-    margin-top: 140rem;
+    margin-top: 110rem;
     margin-bottom: 2rem;
   }
   .card {  
