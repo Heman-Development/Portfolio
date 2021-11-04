@@ -12,7 +12,11 @@
   margin: 10rem 2rem 0 0;
   max-height: 36rem;
   flex: 0 0 50%;
-}
+  }
+
+
+
+
 
 
 @media (min-width: 576px)  and  (max-width: 1060px) {
