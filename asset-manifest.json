@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.72ef0c68.chunk.css",
-    "main.js": "/Portfolio/static/js/main.109a2e31.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.109a2e31.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.190086d4.chunk.css",
+    "main.js": "/Portfolio/static/js/main.0cc59efb.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.0cc59efb.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
     "static/css/2.b7d8c0c2.chunk.css": "/Portfolio/static/css/2.b7d8c0c2.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.2388ca66.chunk.js.map": "/Portfolio/static/js/2.2388ca66.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.b7d8c0c2.chunk.css.map": "/Portfolio/static/css/2.b7d8c0c2.chunk.css.map",
-    "static/css/main.72ef0c68.chunk.css.map": "/Portfolio/static/css/main.72ef0c68.chunk.css.map",
+    "static/css/main.190086d4.chunk.css.map": "/Portfolio/static/css/main.190086d4.chunk.css.map",
     "static/js/2.2388ca66.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.2388ca66.chunk.js.LICENSE.txt",
     "static/media/Freebie.7cacd456.jpg": "/Portfolio/static/media/Freebie.7cacd456.jpg",
     "static/media/Heman.1e591866.jpg": "/Portfolio/static/media/Heman.1e591866.jpg",
@@ -19,7 +19,7 @@
     "static/media/Heydar Molaei Forouhar (En) .2c0adb80.pdf": "/Portfolio/static/media/Heydar Molaei Forouhar (En) .2c0adb80.pdf",
     "static/media/App.css": "/Portfolio/static/media/background.fa6dca5a.jpg",
     "static/media/ecommerce.390bd18f.jpg": "/Portfolio/static/media/ecommerce.390bd18f.jpg",
-    "static/media/hd-imageboard.f4c80e6f.jpg": "/Portfolio/static/media/hd-imageboard.f4c80e6f.jpg",
+    "static/media/hd-imageboard.a976815f.jpg": "/Portfolio/static/media/hd-imageboard.a976815f.jpg",
     "static/media/me.ff602001.png": "/Portfolio/static/media/me.ff602001.png",
     "static/media/pokemon-game.ef2f6de7.jpg": "/Portfolio/static/media/pokemon-game.ef2f6de7.jpg",
     "static/media/portfolioView.ae77e2d0.png": "/Portfolio/static/media/portfolioView.ae77e2d0.png",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.eb6781d5.js",
     "static/css/2.b7d8c0c2.chunk.css",
     "static/js/2.2388ca66.chunk.js",
-    "static/css/main.72ef0c68.chunk.css",
-    "static/js/main.109a2e31.chunk.js"
+    "static/css/main.190086d4.chunk.css",
+    "static/js/main.0cc59efb.chunk.js"
   ]
 }
